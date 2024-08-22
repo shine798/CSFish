@@ -16,3 +16,5 @@
 创建飞书webhook参考文章:https://blog.csdn.net/qq_74046217/article/details/133429541
 
 备注：如果不想实现CS自动进程注入，删除CSFish.cna第3-20行代码即可
+
+创作不易，希望师傅们点点免费的star，支持一下，万分感谢！！！
